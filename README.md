@@ -44,8 +44,6 @@ ECA_Analyzer_Project/
 
 - تحليل هجين للمشاعر (Rules-Based + ML)
 - دعم النصوص العربية
-- استخراج النصوص من الصور باستخدام TrOCR
-- معالجة متقدمة للصور باستخدام OpenCV
 - واجهة رسومية سهلة الاستخدام
 - تكامل مع Firebase للتخزين السحابي
 
@@ -60,7 +58,7 @@ ECA_Analyzer_Project/
 pip install -r requirements.txt
 
 # تشغيل البرنامج
-python main.py
+setup Download URL: 
 ```
 
 ---
