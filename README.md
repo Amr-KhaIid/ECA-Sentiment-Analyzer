@@ -1,0 +1,67 @@
+# ECA Sentiment Analyzer 🎭
+
+محلل المشاعر ECA (Emotion & Classification Analyzer) - أداة متقدمة لتحليل المشاعر في النصوص والصور.
+
+## البنية الهرمية للمشروع 📁
+
+```
+ECA_Analyzer_Project/
+│
+├── main.py                    # نقطة البداية للبرنامج
+├── requirements.txt           # المكتبات المطلوبة
+├── firebase_credentials.json  # بيانات Firebase
+│
+├── 📁 core/                   # المكونات الأساسية
+│   ├── hybrid_analyzer.py     # محلل هجين
+│   ├── rules_extractor.py     # استخراج القواعد
+│   ├── text_cleaner.py        # تنظيف النصوص
+│   └── udpipe_wrapper.py      # غلاف UDPipe
+│
+├── 📁 data_processing/        # معالجة البيانات
+│   └── csv_handler.py         # معالجة ملفات CSV
+│
+├── 📁 database/               # قاعدة البيانات
+│   ├── cloud_memory.py        # Firebase Cloud
+│   └── user_manager.py        # إدارة المستخدمين
+│
+├── 📁 models/                 # نماذج التعلم الآلي
+│   └── Active model/
+│
+├── 📁 vision/                 # [إضافة جديدة - مستقبلية]
+│   ├── ocr_engine.py          # TrOCR للتعرف على النصوص من الصور
+│   └── image_processor.py     # OpenCV لمعالجة الصور
+│
+├── 📁 reports/                # التقارير
+│   ├── clinical_reports/
+│   └── annotated_datasets/
+│
+└── 📁 ui/                     # الواجهة الرسومية
+    ├── main_window.py
+    └── 📁 assets/            # الموارد والصور
+```
+
+## المميزات ✨
+
+- تحليل هجين للمشاعر (Rules-Based + ML)
+- دعم النصوص العربية
+- استخراج النصوص من الصور باستخدام TrOCR
+- معالجة متقدمة للصور باستخدام OpenCV
+- واجهة رسومية سهلة الاستخدام
+- تكامل مع Firebase للتخزين السحابي
+
+## المتطلبات 📦
+
+انظر إلى `requirements.txt` للحصول على قائمة كاملة بالمكتبات المطلوبة.
+
+## التثبيت والتشغيل 🚀
+
+```bash
+# تثبيت المكتبات
+pip install -r requirements.txt
+
+# تشغيل البرنامج
+python main.py
+```
+
+---
+**تطوير بواسطة:** Amr-KhaIid
