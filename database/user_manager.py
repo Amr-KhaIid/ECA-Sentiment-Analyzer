@@ -7,7 +7,7 @@ import hashlib
 from database.cloud_memory import sync_user_profile_to_cloud, init_firebase, db
 
 LOCAL_USER_FILE = 'user_data.json'
-APP_VERSION = "V1.0 - Ultimate Champion"
+APP_VERSION = "V1.0"
 
 class UserManager:
     def __init__(self):
