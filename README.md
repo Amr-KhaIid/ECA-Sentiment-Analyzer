@@ -1,6 +1,6 @@
 # ECA Sentiment Analyzer 🎭
 
-محلل المشاعر ECA (Emotion & Classification Analyzer) - أداة متقدمة لتحليل المشاعر في النصوص والصور.
+محلل المشاعر ECA (Emotion & Classification Analyzer) - أداة متقدمة لتحليل المشاعر في النصوص.
 
 ## البنية الهرمية للمشروع 📁
 
