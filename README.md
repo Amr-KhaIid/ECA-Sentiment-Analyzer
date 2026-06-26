@@ -27,14 +27,6 @@ ECA_Analyzer_Project/
 ├── 📁 models/                 # نماذج التعلم الآلي
 │   └── Active model/
 │
-├── 📁 vision/                 # [إضافة جديدة - مستقبلية]
-│   ├── ocr_engine.py          # TrOCR للتعرف على النصوص من الصور
-│   └── image_processor.py     # OpenCV لمعالجة الصور
-│
-├── 📁 reports/                # التقارير
-│   ├── clinical_reports/
-│   └── annotated_datasets/
-│
 └── 📁 ui/                     # الواجهة الرسومية
     ├── main_window.py
     └── 📁 assets/            # الموارد والصور
